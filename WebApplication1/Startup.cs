@@ -35,6 +35,7 @@ namespace WebApplication1
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+
             }
             app.UseStaticFiles();
 
